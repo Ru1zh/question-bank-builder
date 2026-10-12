@@ -1,0 +1,4 @@
+interface:
+  display_name: "课程题库生成"
+  short_description: "从多格式课程材料生成可复用题库，核查题目答案与来源，供本地练习和自主组卷"
+  default_prompt: "使用 $question-bank-builder，根据我指定的课程材料和题库覆盖范围，在我选择的文件夹中生成并验证 Lecture2Exam 题库；考试由我在应用内配置后生成。"
